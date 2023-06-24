@@ -1,0 +1,13 @@
+<html>
+    <body style="background-color:rgb(143, 163, 17);">
+            <img src= {{result["image"]}} alt="Hangman Logo" width="430" height="430">
+        <br><br>
+        <h2>Guess the word:   {{result["display_word"]}}</h2><br>
+        Attempts left:    {{result["Remaining_attempts"]}}<br><br>
+
+        <form action="/guess" method="post">
+            Guess a letter:   <input type = "text" name ="Guessed_letter" placeholder="Guess a letter "><br><br>
+            <input type="Submit" value="Guess">
+        </form>
+    </body>
+</html>
