@@ -1,5 +1,5 @@
 flask
 english_words
 regex
-random
+random = 1.0.1
 collections
