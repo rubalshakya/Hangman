@@ -2,4 +2,3 @@ flask
 english_words
 regex
 random2
-collections
