@@ -1,5 +1,5 @@
 flask
 english_words
-re
+regex
 random
 collections
